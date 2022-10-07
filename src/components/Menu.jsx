@@ -15,7 +15,7 @@ import pic3 from '../assets/pic3.png'
 function Menu({show}) {
 if(show){
   return (
-    <div className=' menu-section hidden bg-white fixed  top-0 z-50 w-56 md:flex h-full overflow-y-auto mt-[56px] scroll-smooth snap-y snap-mandatory'>
+    <div className={ show ?' menu-section  bg-white fixed  top-0 z-50 w-56 md:flex h-full overflow-y-auto mt-[56px] scroll-smooth snap-y snap-mandatory' :' menu-section hidden bg-white fixed  top-0 z-50 w-56 md:flex h-full overflow-y-auto mt-[56px] scroll-smooth snap-y snap-mandatory'}>
            <div className="layout  mt-5 space-y-4 ">
             <button className='flex px-5 py-1  hover:bg-slate-200 w-full   items-center '><AiFillHome size={20} className='mr-5'/> Home</button>
             <button className='flex px-5 py-1 hover:bg-slate-200 w-full items-center'><MdOutlineExplore size={20} className='mr-5'/>Explore</button>
@@ -64,8 +64,8 @@ if(show){
   )
 }else {
   return (
-    <div className=' menu-section hidden ease-out duration-300 bg-white fixed  top-0 z-50 w-26 md:flex h-full overflow-y-auto mt-[56px] scroll-smooth snap-y snap-mandatory'>
-    <div className="layout  mt-5 space-y-4 font-light ">
+    <div className=' menu-section hidden bg-white fixed  top-0 z-50 w-32 md:flex h-full overflow-y-auto mt-[56px] scroll-smooth snap-y snap-mandatory'>
+    <div className="layout  mt-5 space-y-4 ">
      <button className='flex flex-col justify-center px-5 py-1  hover:bg-slate-200 w-full   items-center '><AiFillHome size={20} /> Home</button>
      <button className='flex flex-col justify-center px-5 py-1 hover:bg-slate-200 w-full items-center'><MdOutlineExplore size={20} className=''/>Explore</button>
      <button className='flex flex-col justify-center px-5 py-1 hover:bg-slate-200 w-full items-center'><SiYoutubestudio size={20} className=''/>Shorts</button>

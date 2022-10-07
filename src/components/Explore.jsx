@@ -8,7 +8,7 @@ function Explore({show}) {
   console.log(data)
   return (
 
-    <div className={!show ? 'md:ml-32 mt-[6rem] p-5 bg-gray-50 flex gap-2 md:justify-between   flex-wrap' :'md:ml-60 mt-[6rem] p-5 bg-gray-50 flex gap-2 md:justify-between   flex-wrap'}>
+    <div className={!show ? 'md:ml-32 mt-[6rem] p-5  bg-gray-50 flex gap-2 md:justify-between   flex-wrap' :'md:ml-60 mt-[6rem] p-5 bg-gray-200 md:bg-gray-50 flex gap-2 md:justify-between   flex-wrap'}>
       {data.map(ele=>(
         <div className="card mt-5  lg:w-[224px] hover:cursor-pointer py-2" key={ele.id}>
         <img src={ele.picture} alt="" className='w-full md:w-60 lg:64 lg:w-56 md:h-40 ' />
