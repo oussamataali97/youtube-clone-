@@ -1,7 +1,7 @@
 import React from 'react'
 import banner from '../assets/banner.jpg'
 import {useState} from 'react'
-import datas from '../../Data'
+import datas from '../Data'
 function Explore({show}) {
 
   const [data,setData]=useState(datas)
