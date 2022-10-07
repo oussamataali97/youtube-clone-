@@ -6,8 +6,8 @@ const video =[
         creator:'Vardino',
         views:6,
         timestamp: '1 month ago',
-        creatorpic:'./public/assets/avatar.png',
-        picture:'./public/assets/banner.jpg',
+        creatorpic:'./public/avatar.png',
+        picture:'./public/banner.jpg',
     },
     {
         id:2,
@@ -15,99 +15,99 @@ const video =[
         creator:'Elzero',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/pict.jpg' ,
-        creatorpic:'./public/assets/pic1.png',
+        picture:'public/pict.jpg' ,
+        creatorpic:'public/pic1.png',
 
     },
     {
         id:3,
         title:'Switzerland Full Hd view',
         creator:'Elzero',
-        creatorpic:'./public/assets/avatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/most_amazing_places_in_the_world-wallpaper-3554x1999.jpg'
+        picture:'public/most_amazing_places_in_the_world-wallpaper-3554x1999.jpg'
     },
     {
         id:4,
         title:'Nature Videos 1080p',
         creator:'Elzero',
-        creatorpic:'./public/assets/savatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/wallpaperflare.com_wallpaper (1).jpg'
+        picture:'public/wallpaperflare.com_wallpaper (1).jpg'
     },
     {
         id:5,
         title:'Beatifull Nature Video',
         creator:'Elzero',
-        creatorpic:'./public/assets/pic2.png',
+        creatorpic:'public/pic2.png',
         views:6,
         timestamp: '1 month ago',
-        picture:'./public/assets/wallpaperflare.com_wallpaper.jpg'
+        picture:'public/wallpaperflare.com_wallpaper.jpg'
     },
     {
         id:6,
         title:'Background css',
         creator:'Elzero',
-        creatorpic:'./public/assets/avatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/galaxy_s5-wallpaper-2560x1440.jpg'
+        picture:'public/galaxy_s5-wallpaper-2560x1440.jpg'
     },  {
         id:7,
         title:'Html Tutorial',
         creator:'Elzero',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/pict.jpg' ,
-        creatorpic:'./public/assets/pic1.png',
+        picture:'public/pict.jpg' ,
+        creatorpic:'public/pic1.png',
 
     },
     {
         id:8,
         title:'Switzerland Full Hd view',
         creator:'Elzero',
-        creatorpic:'./public/assets/avatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/most_amazing_places_in_the_world-wallpaper-3554x1999.jpg'
+        picture:'public/most_amazing_places_in_the_world-wallpaper-3554x1999.jpg'
     },
     {
         id:9,
         title:'Nature Videos 1080p',
         creator:'Elzero',
-        creatorpic:'./public/assets/avatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/wallpaperflare.com_wallpaper (1).jpg'
+        picture:'public/wallpaperflare.com_wallpaper (1).jpg'
     },
     {
         id:10,
         title:'Beatifull Nature Video',
         creator:'Elzero',
-        creatorpic:'./public/assets/pic2.png',
+        creatorpic:'public/pic2.png',
         views:6,
         timestamp: '1 month ago',
-        picture:'./public/assets/wallpaperflare.com_wallpaper.jpg'
+        picture:'public/wallpaperflare.com_wallpaper.jpg'
     },
     {
         id:11,
         title:'Background css',
         creator:'Elzero',
-        creatorpic:'./public/assets/avatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/galaxy_s5-wallpaper-2560x1440.jpg'
+        picture:'public/galaxy_s5-wallpaper-2560x1440.jpg'
     },
     {
         id:12,
         title:'Ait brahim amced 2022',
         creator:'Oussama',
-        creatorpic:'./public/assets/avatar.png',
+        creatorpic:'public/avatar.png',
         views:6,
         timestamp: '3 month ago',
-        picture:'./public/assets/ait.jpg'
+        picture:'public/ait.jpg'
     }
 ]
 
